@@ -16,14 +16,16 @@
     "desugaring",
     "ES6"
   ],
-  "version": "0.4.6",
+  "version": "0.4.6-dev",
   "homepage": "http://github.com/facebook/regenerator",
   "repository": {
     "type": "git",
     "url": "git://github.com/facebook/regenerator.git"
   },
   "main": "main.js",
-  "bin": "bin/regenerator",
+  "bin": {
+    "regenerator": "bin/regenerator"
+  },
   "scripts": {
     "test": "node test/run.js"
   },
