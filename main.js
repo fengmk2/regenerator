@@ -53,7 +53,7 @@ function normalizeOptions(options) {
   });
 
   if (!options.esprima) {
-    options.esprima = require("esprima");
+    options.esprima = require("esprima-harmony");
   }
 
   assert.ok(
